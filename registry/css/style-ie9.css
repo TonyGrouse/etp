@@ -1,0 +1,14 @@
+.search-filters tbody {
+    display: table;
+}
+.search-filters tr {
+    display: table-cell;
+    float: left;
+}
+.search-filters tr td {
+    display: table-cell;
+    float: left;
+}
+.search-filters .td-value tr td:first-child {
+    width: 60% !important;
+}

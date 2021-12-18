@@ -1,0 +1,16 @@
+.pagination-group a span {
+    visibility: hidden;
+    display: none;
+}
+.pagination-group .pager-button-first::before {
+    content: '<<';
+}
+.pagination-group .pager-button-back::before {
+    content: '<';
+}
+.pagination-group .pager-button-next::before {
+    content: '>';
+}
+.pagination-group .pager-button-last::before {
+    content: '>>';
+}
