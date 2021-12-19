@@ -12,3 +12,7 @@
 .search-filters .td-value tr td:first-child {
     width: 60% !important;
 }
+
+.pagination-group a {
+    padding: 8px 15px;
+}
